@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.sqlite3
+*.db
+data/chroma/
+
+# Additional local and generated files
+.env.*
+!.env.example
+node_modules/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
